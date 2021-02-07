@@ -4,3 +4,21 @@
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
     line-height: 1.5;
 }
+
+header {
+    display: flex;
+    height: 200%;
+    background-color: rgba(230, 211, 226, 0.253);
+    
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(61, 60, 60);
+    font-size: 60px;
+    font-weight: 500;
+}
+
+a {
+    color: rgb(61, 60, 60);
+}
