@@ -6,11 +6,12 @@
 }
 
 header {
-    display: flex;
+    display: flex; 
     height: 200%;
     background-color: rgba(230, 211, 226, 0.2);
     border-radius: 5px;
 }
+
 
 header h1 {
     text-align: center; 
@@ -52,3 +53,9 @@ img {
     align-items: center;
     line-height: 2.5;
 } 
+
+.work-section {
+    margin: 0;
+    display: flex;
+    padding: 0;
+}
