@@ -54,8 +54,39 @@ img {
     line-height: 2.5;
 } 
 
-.work-section {
-    margin: 0;
+section {
     display: flex;
-    padding: 0;
+    flex-direction: row;
+    font-size: 40px;
+}
+
+div {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+.p1 {
+    display: flex;
+    flex-grow: 2;
+}
+
+section img {
+   max-width: 100%;
+    height: auto;
+}
+
+aside {
+    display:flex;
+    background-color: rgba(24, 73, 102 .3);
+}
+ul {
+    list-style: none;
+}
+
+aside header {
+   
+    font-size: 30px;
+
 }
