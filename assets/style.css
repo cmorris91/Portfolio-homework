@@ -60,14 +60,14 @@ section {
     font-size: 40px;
 }
 
-div {
+.images {
     display: flex;
     border: 1px solid gray;
     border-radius: 8px;
     align-items: center;
     
 }
-.p1 {
+#p1 {
     display: flex;
     flex-grow: 2;
 }
@@ -77,16 +77,21 @@ section img {
     height: auto;
 }
 
-aside {
+#contact {
+    margin-top: 100px;
     display:flex;
-    background-color: rgba(24, 73, 102 .3);
+    background-color: rgba(230, 211, 226, 0.2);
+    flex-direction: column;
 }
-ul {
+#contact .contact-links {
     list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
-aside header {
-   
+#contact header {
+    text-decoration: underline;
     font-size: 30px;
+    font-weight: 200;
 
 }
