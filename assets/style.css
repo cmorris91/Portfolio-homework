@@ -73,6 +73,10 @@ main {
     font-size: 25px;
     text-align: center;
 }
+.work-link {
+    margin: 0;
+    padding: 0;
+}
 
 #work p {
     background-color: rgb(110, 144, 160);
