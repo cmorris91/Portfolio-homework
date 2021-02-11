@@ -3,6 +3,7 @@
     padding: 5px;
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
     line-height: 1.5;
+    color: rgb(61, 60, 60);
 }
 
 header {
@@ -15,12 +16,19 @@ header {
 
 header h1 {
     text-align: center; 
-    color: rgb(61, 60, 60);
     font-size: 60px;
     font-weight: 500;
 }
 
-a {
+a:hover {
+    background-color: rgb(122, 163, 201);
+}
+
+a:visited {
+    color: rgb(95, 33, 33);
+}
+
+.nav-links {
     display: flex;
     justify-content: flex-end;
     color: rgb(61, 60, 60);
@@ -29,69 +37,90 @@ a {
 
 main {
     display: flex;
-    justify-content: space-between;
-    margin: 10px 0 0;
-    border: 2px solid rgb(243, 235, 235);
-    background-color: rgba(230, 232, 236, 0.2);
+    margin-top: 10px;
     padding: 0;
+    position: relative;
 }
 
-img {
-    display: flex;
-    width: 50%;
+.my-photo {
+    padding: 20px;
+    width: 80%;
     height: 100%;
 }
 
 #about-me {
     display: flex;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 0;
     text-align: center;
-    width: 50%;
-    height: 100%;
+    width: 80%;
+    height: 30;
     border-radius: 4px;
     align-items: center;
     line-height: 2.5;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    left: 20px;
+    background-color: rgba(230, 211, 226, 0.6);
+    font-size: 25px;
 } 
 
-section {
-    display: flex;
-    flex-direction: row;
+#work {
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: row; 
     font-size: 40px;
+    text-align: center;
 }
 
-.images {
+#work p {
+    background-color: rgb(110, 144, 160);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#work p:hover {
+    background-color: rgb(29, 45, 88);
+}
+
+#p1 {
+    max-width: 600px;
+    max-height: 600px;
+}
+
+#p2 {
+    max-width: 400px;
+    max-height: 600px;
+}
+.work-img {
+    margin: 0;
+    padding: 0;
     display: flex;
-    border: 1px solid gray;
+    border: 1px solid white;
     border-radius: 8px;
     align-items: center;
-    
-}
-#p1 {
-    display: flex;
-    flex-grow: 2;
-}
-
-section img {
-   max-width: 100%;
+    max-height: 400px;
+    max-width: 305px;
     height: auto;
+    width: 100%;
 }
 
 #contact {
-    margin-top: 100px;
+    margin-top: 50px;
     display:flex;
     background-color: rgba(230, 211, 226, 0.2);
     flex-direction: column;
-}
-#contact .contact-links {
-    list-style: none;
-    justify-content: space-evenly;
-    text-align: center;
 }
 
 #contact header {
     text-decoration: underline;
     font-size: 30px;
     font-weight: 200;
-
+}
+#contact .contact-links {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
 }
