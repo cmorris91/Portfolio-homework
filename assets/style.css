@@ -1,22 +1,14 @@
 * {
     margin: 0 auto;
     padding: 5px;
-    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.5;
-    color: rgb(61, 60, 60);
 }
 body {
-    background-color: #ececee;
-}
-header {
-    display: flex;
-    height: 200%;
-    margin: 0;
-    background: #5da2d5;
-    border-radius: 2px;
+    background-color: #303c6c;
 }
 .nav {
- margin: 15px;
+    margin: 15px;
 }
 .nav-link {
     color: #ececee;
@@ -29,15 +21,10 @@ header h1 {
     color: #ececee;
 }
 a:hover {
-    background-color: rgb(122, 163, 201);
+    color: #f3d250;
+    border-bottom: 1px solid #f3d250;
 }
 
-.nav-links {
-    display: flex;
-    justify-content: flex-end;
-    color: rgb(61, 60, 60);
-    font-size: 20px;
-}
 
 main {
     display: flex;
@@ -70,13 +57,6 @@ main {
     font-size: 25px;
 } 
 
-#work {
-    margin-top: 20px;
-    display: flex; 
-    flex-direction: row; 
-    font-size: 25px;
-    text-align: center;
-}
 .work-link {
     margin: 0;
     padding: 0;
@@ -128,16 +108,17 @@ main {
 .accordion-header {
     background-color: #f3d25d;
     font-family: 'Raleway', sans-serif;
-
+    
 }
 .accordion-button:not(.collapsed) {
     color: black;
     background-color: #f3d250;
-
+    
 }
 .card {
     margin: 5px;
     background-color: #f78888;
+    border-radius: 15px;
 }
 .card-link {
     color: #ececee;
@@ -145,6 +126,47 @@ main {
 .card-link:hover{
     background-color: #303c6c;
 }
+
+
+
+/* new stylings
+*/
+
+
+header {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    
+}
+.img-container {
+    margin-top: 10%;
+    max-width: 300px;
+    max-height: 300px;
+    
+}
+
+.nav-link {
+    text-align: center;
+    color: #f78888;
+    font-size: 20px;
+}
+aside {
+    display: flex;
+    color: #eee2dc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
     #about-me {
         font-size: 10px;
