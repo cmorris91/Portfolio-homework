@@ -27,9 +27,9 @@
 <body>
   <nav>
     <div class="navs row justify-content-center">
-      <a class="nav-link col-12 col-lg-4" href="#">Get In Touch</a>
-      <a class="nav-link col-12 col-lg-4" href="#">My Work</a>
-      <a class="nav-link col-12 col-lg-4" href="#">Resume</a>
+      <a class="nav-link col-12 col-lg-4" href="#contact-me">Get In Touch</a>
+      <a class="nav-link col-12 col-lg-4" href="#skills">My Work</a>
+      <a class="nav-link col-12 col-lg-4" href="./assets/img/Chelsey Morris Resume (1).pdf" download>Resume</a>
     </div>
   </nav>
   
@@ -45,57 +45,68 @@
    
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-4 main-info" id="skills">
+      <div class="col-12 col-lg-6 main-info align-items-center" id="skills">
         <h2>Skills</h2>
-        <h4 style="padding-top: 30%;">Front End</h4>
+        <div class="skill-section">
+        <h4 style="text-decoration: underline;">Front End</h4>
         <p>HTML</p>
         <p>CSS</p>
         <p>Javascript (ES6)</p>
-        <p >API's:</p>
+        <p style="text-decoration: underline;">API's:</p>
         <p >Jquery</p>
         <p>Bootstrap</p>
         <p>Moment</p>
-         <h4>Back End</h4>
+         <h4 style="text-decoration: underline;">Back End</h4>
          <p>Node.js</p>
+        </div>
       </div>
-      <div class="col-12 col-lg-4 main main-info" id="work">
+      <div class="col-12 col-lg-6 main main-info" id="work">
         <h2>Recent Work</h2>
         <div class="row justify-content-center">
           <div class="project-card" style="width: 30rem;">
-            <a href="#" class="card-link">Travel Page</a>
-            <img src="./assets/img/group-project.jpg" class="card-img-top" alt="Travel Page">  
+            <a href="https://cmorris91.github.io/group-project-1/" class="card-link">Travel Page</a>
+            <a href="https://github.com/cmorris91/group-project-1" style="font-size: 15px; text-decoration: none;">
+              <img src="./assets/img/group-project.jpg" class="card-img-top" alt="Travel Page">
+              click on the image to see the repo!
+            </a>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="project-card" style="width: 30rem;">
-            <a href="#" class="card-link">Weather Page</a>
-            <img src="./assets/img/weather-page.jpg" class="card-img-top" alt="Travel Page">  
+            <a href="https://cmorris91.github.io/weather-homework/" class="card-link">Weather Page</a>
+            <a href="https://github.com/cmorris91/weather-homework" style="font-size: 15px; text-decoration: none;">
+            <img src="./assets/img/weather-page.jpg" class="card-img-top" alt="Weather App"> 
+            click on the image to see the repo! 
+          </a>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-evenly">
           <div class="project-card" style="width: 30rem;">
-            <a href="#" class="card-link">Day Planner</a>
-            <img src="./assets/img/day-planner.jpg" class="card-img-top" alt="Travel Page">  
+            <a href="https://cmorris91.github.io/day-planner/" class="card-link">Day Planner</a>
+            <a href="https://github.com/cmorris91/day-planner" style="font-size: 15px; text-decoration: none;">
+            <img src="./assets/img/day-planner.jpg" class="card-img-top" alt="Day Planner"> 
+            click on the image to see the repo!  
+          </a>
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-4 main-info" id="links">
+      <!-- <div class="col-12 col-lg-4 main-info" id="links">
         <h2>Resources</h2>
         <h4 style="padding: 15%;">
-          <a class="resources" href="#">Resume</a>
+          <a class="resources"href="./assets/img/Chelsey Morris Resume.jpg" download="./assets/img/Chelsey Morris Resume.jpg">Checkout my Resume</a>
         </h4>
         <h4 style="padding: 15%;">
-          <a class="resources" href="#">LinkedIn</a>
+          <a class="resources" href="https://www.linkedin.com/in/chelsey-morris-758590204/">Follow Me on LinkedIn</a>
         </h4>
         <h4 style="padding: 15%;">
-          <a class="resources" href="#">Github</a>
+          <a class="resources" href="https://github.com/cmorris91">Follow Me on Github</a>
         </h4>
         
-      </div>
+      </div> -->
     </div>
   </div>
    
-  <div class="card mb-3 start-project-card">
+  <div class="card mb-3 start-project-card" id="contact-me">
     <div class="card-body card-flex">
         <h3 class="intro subtitle contact-me-subtitle" style="color: #f78888; font-family:'Raleway', sans-serif; text-align: center;">Contact Me</h3>
         <h3 class="intro subtitle">
@@ -104,6 +115,7 @@
             <a href="https://www.linkedin.com/in/chelsey-morris-758590204/" class="social-icon"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/cmorris91" class="social-icon"><i class="fab fa-github"></i></a>
             <a href="mailto:chelseymorris91@yahoo.com.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+            <a href="tel: 848-2999778" class="social-icon"><i class="fas fa-phone"></i></a>
           </div>
         </h3>
     </div>
