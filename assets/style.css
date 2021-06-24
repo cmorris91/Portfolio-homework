@@ -36,7 +36,6 @@ header {
     display: flex;
     margin: 0;
     justify-content: center;
-    
 }
 .img-container {
     margin-top: 8%;
@@ -108,11 +107,6 @@ aside {
     color: #f3d250;
 }
 
-.start-project-card {
-    background-color: #303c6c;
-    border: none;
-}
-
 .skill-header {
     background-color: #303c6c;
     color: #f3d250;
@@ -140,7 +134,10 @@ aside {
     width: 105%;
   }
 
-  
+  #contact-me {
+      background-color: #303c6c;
+      border: none;
+  }
 
 @media screen and (max-width: 576px) {
     #about-me {
